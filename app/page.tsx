@@ -15,9 +15,11 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div>
       <Header />
-      <main className="flex-1">
+      <main>
+        <h1>Welcome to Communa World</h1>
+        <p>This is the landing page for communa.world</p>
         <HeroSection />
         <FeaturesSection />
         <HowItWorksSection />
